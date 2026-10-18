@@ -5,7 +5,8 @@
 [![Spring Security](https://img.shields.io/badge/Spring%20Security-6-blue.svg)](https://spring.io/projects/spring-security)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%20%2F%20H2-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
-[![Tests](https://img.shields.io/badge/Tests-17%20Passed-success.svg)](https://github.com/)
+[![Build Status](https://github.com/shinigami555/agile-task-api/actions/workflows/ci.yml/badge.svg)](https://github.com/shinigami555/agile-task-api/actions)
+[![Tests](https://img.shields.io/badge/Tests-17%20Passed-success.svg)](https://github.com/shinigami555/agile-task-api)
 
 A production-grade Agile Sprint & Task Management REST API built with modern **Java 21**, **Spring Boot 3**, and **Spring Security 6**. Designed to model enterprise Agile workflows (similar to Jira / Asana), featuring stateless JWT authentication, Role-Based Access Control (RBAC), dynamic multi-criteria JPA filtering, comprehensive automated test coverage, and Docker containerization.
 
@@ -66,7 +67,7 @@ Clone the repository and run using the Maven wrapper:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/agile-task-api.git
+git clone https://github.com/shinigami555/agile-task-api.git
 cd agile-task-api
 
 # Run application
