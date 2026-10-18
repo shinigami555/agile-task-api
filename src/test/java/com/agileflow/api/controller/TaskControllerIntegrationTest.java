@@ -66,7 +66,7 @@ class TaskControllerIntegrationTest {
                 .header("Authorization", adminToken))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.content", hasSize(greaterThanOrEqualTo(1))))
-            .andExpect(jsonPath("$.totalElements", greaterThanOrEqualTo(1)));
+            .andExpect(jsonPath("$.page.totalElements", greaterThanOrEqualTo(1)));
     }
 
     @Test
